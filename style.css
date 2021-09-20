@@ -13,8 +13,18 @@
     background-color: rgb(68, 68, 68);
 }
 .banner{
+    background-color:rgba(0, 0, 0, 0.8);
     background-image: url("assets/ba1.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+    
+  
+}
+.text{
+    color: whitesmoke;
+    text-align: right;
+}
 
+#titles{
+    text-align: center;
 }
