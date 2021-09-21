@@ -13,18 +13,29 @@
     background-color: rgb(68, 68, 68);
 }
 .banner{
-    background-color:rgba(0, 0, 0, 0.8);
     background-image: url("assets/ba1.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: center;
     
-  
 }
 .text{
+    display: block;
     color: whitesmoke;
     text-align: right;
+    width: 530px;
+    
+}
+
+.boton{
+    padding-bottom: 0% !important;
+    padding-top: 0% !important;
+    padding-right: 3px !important;
+    padding-left: 3px !important;
+    font-size: 11px !important;
 }
 
 #titles{
     text-align: center;
 }
+/*CARDS*/
