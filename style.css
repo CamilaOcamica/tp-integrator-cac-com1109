@@ -1,22 +1,17 @@
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/mixins";
-@import "bootstrap/scss/utilities";
-@import "bootstrap/scss/utilities/api";
-
-
+.bg-color{
+    background-color: #343a40 ;
+    height: 80px !important;
+}
 .logo{
     width: 30%;
 }
 
-.bg-color{
-    background-color: rgb(68, 68, 68);
-}
 .banner{
     background-image: url("assets/ba1.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
+    height: 550px;
     
 }
 .text{
@@ -24,6 +19,7 @@
     color: whitesmoke;
     text-align: right;
     width: 530px;
+    
     
 }
 
@@ -37,5 +33,10 @@
 
 #titles{
     text-align: center;
+    margin-top: 15px;
 }
 /*CARDS*/
+.contenedor .card{
+    justify-content: space-around !important;
+
+}
