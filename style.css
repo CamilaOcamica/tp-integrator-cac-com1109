@@ -8,7 +8,7 @@
 }
 
 .logo{
-    width: 30%;
+    width: 27%;
 }
 
 .banner{
@@ -16,14 +16,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 550px;
+    height: 610px;
     
 }
 .text{
     display: block;
-    color: whitesmoke;
+    color: white;
     text-align: right;
-    width: 530px;
+    height: 100px;
+    width: 620px;
+    font-size: 17px;
+    font-weight: 350;
     
     
 }
@@ -43,12 +46,14 @@
 /*CARDS*/
 .contenedor .card{
     justify-content: space-around !important;
+    
 
 }
 .btn-color{
     background-color: rgb(128, 197, 24) !important;
     color: white !important;
 }
+
 
 .formulario{
     text-align: center;
