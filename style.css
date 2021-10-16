@@ -2,6 +2,11 @@
     background-color: #353A40 ;
     height: 80px !important;
 }
+/*CORRECCION BOOTSTRAP*/
+.navbar-collapse{
+    flex-grow: unset !important;
+}
+
 .logo{
     width: 30%;
 }
@@ -42,19 +47,27 @@
 }
 .btn-color{
     background-color: rgb(128, 197, 24) !important;
-    color: whitesmoke !important;
+    color: white !important;
 }
 
 .formulario{
     text-align: center;
 }
+/*CORRECCION BOOTSTRAP*/
 .form-check {
 padding-left: 0% !important;
 }
 
 u{
-    text-decoration: none;
-    border-bottom: 2px dotted;
+    text-decoration: underline 2px dotted;
+    
+}
+
+textarea{
+ border: rgb(202, 201, 201) 1px solid;
+ border-radius: 5px;
+ font-weight: 300;
+
 }
 
 footer{
