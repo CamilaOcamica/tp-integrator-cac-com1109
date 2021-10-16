@@ -40,3 +40,15 @@
     justify-content: space-around !important;
 
 }
+.btn-color{
+    background-color: rgb(128, 197, 24) !important;
+    color: whitesmoke !important;
+}
+
+.formulario{
+    text-align: center;
+}
+.form-check {
+padding-left: 0% !important;
+}
+
