@@ -1,6 +1,6 @@
 .bg-color{
     background-color: #353A40 ;
-    height: 80px !important;
+    height: 88px !important;
 }
 /*CORRECCION BOOTSTRAP*/
 .navbar-collapse{
@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 610px;
+    height: 580px;
     
 }
 .text{
