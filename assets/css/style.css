@@ -12,12 +12,15 @@
 }
 
 .banner{
-    background-image: url("assets/ba1.jpg");
+    background-image: url("../ba1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 580px;
     
+}
+a:visited{
+    color: white;
 }
 .text{
     display: block;
@@ -50,6 +53,8 @@
 .btn-color{
     background-color: rgb(128, 197, 24) !important;
     color: white !important;
+    text-decoration: none;
+
 }
 
 
