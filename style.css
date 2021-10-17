@@ -27,8 +27,6 @@
     width: 620px;
     font-size: 17px;
     font-weight: 350;
-    
-    
 }
 
 .boton{
@@ -79,4 +77,15 @@ footer{
     margin-top: 20px;
     height: 100px;
     background: linear-gradient(90deg, rgba(28,56,69,1) 0%, rgba(30,83,114,1) 35%);
+    }
+
+    footer a{
+    color: white !important;
+    text-shadow: 0 -1px black;
+
+}
+footer ul{
+font-weight: 250;
+font-size: 14px;
+
 }
