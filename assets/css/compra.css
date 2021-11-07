@@ -1,5 +1,9 @@
 .testo-gris{
-    color: rgb(202, 201, 201);
+    color: rgb(160, 158, 158);
     font-size: 15px;
     font-weight: 250;
+}
+#promociones{
+    display: flex;
+    justify-content: center;
 }
