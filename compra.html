@@ -73,24 +73,48 @@
     <h2>VALOR DE TICKERT $200</h2>
   </div>
   <!--FORM START-->
-  <form>
-    <div class="container" align="center">
-      <div class="row">
-        <div class="col-4" style="padding-left: 0%; padding-right: 15px;">
-          <input style="font-weight: 250; width: 100%;" class="form-control" placeholder="Nombre">
+  <div style="display: flex; align-content: center; width: 90%;">
+    <form class="container-fluid mx-auto" style="position: relative;">
+      <div style="margin-bottom: 30px;" class="row justify-content">
+        <div class="form-group col-sm-4 flex-column d-flex"> <input type="text" class="form-control"
+            placeholder="Nombre">
         </div>
-        <div class="col-4" style=" padding-right: 0%; padding-left: 15px">
-          <input style="font-weight: 250; width: 100%;" class="form-control" placeholder="Apellido">
-        </div>
-      </div>
-      <div class="col-8">
-        <div>
-          <input style="font-weight: 250;" class="form-control" placeholder="Correo">
+        <div class="form-group col-sm-4 flex-column d-flex"> <input type="text" class="form-control"
+            placeholder="Apellido">
         </div>
       </div>
-    </div>
-  </form>
-
+      <div class="row justify-content">
+        <div class="form-group col-8 flex-column d-flex"> <input type="text" class="form-control" placeholder="Correo">
+        </div>
+      </div>
+      <div class="row justify-content">
+        <div class="form-group col-sm-4 flex-column d-flex">
+          <label for="cantidad">Cantidad</label>
+          <input style="margin-top: 8px;" type="text" id="cantidad" class="form-control" placeholder="Cantidad">
+        </div>
+        <div class="form-group col-sm-4 flex-column d-flex">
+          <label for="categoria" class="form-label">Categoría</label>
+          <select class="form-select" id="categoria">
+            <option value="">Sin categoría</option>
+            <option>Estudiante</option>
+            <option>Trainee</option>
+            <option>Junior</option>
+          </select>
+        </div>
+      </div>
+      <div class="row justify-content">
+        <div id="div-total" class="form-group flex-column d-flex">
+          <p style="padding-top: 18px;">Total a Pagar: $</p>
+        </div>
+      </div>
+      <div style="margin-top: 30px;" class="row justify-content">
+        <div class="form-group col-sm-4 flex-column d-flex"><button type="reset" class="btn btn-color">Borrar</button>
+        </div>
+        <div class="form-group col-sm-4 flex-column d-flex"><button type="submit" class="btn btn-color">Resumen</button>
+        </div>
+      </div>
+    </form>
+  </div>
   <!--FORM END-->
   </main>
   <footer class="navbar navbar-expand-lg">
